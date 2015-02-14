@@ -33,7 +33,7 @@ source-repository head
   location: https://github.com/lpil/pilfold-back
 
 executable pilfold-back
-  main-is:             main.hs
+  main-is:             Main.hs
   
   -- Modules included in this executable, other than Main.
   -- other-modules:       
