@@ -4,8 +4,7 @@ module View where
 import Web.Scotty
 import qualified Network.HTTP.Types as HTTP
 
-import qualified Data.Char as Char
-import qualified Data.Map  as Map
+import qualified Data.Map as Map
 
 helloWorld :: ActionM ()
 helloWorld = json ("Hello, world!" :: String)
